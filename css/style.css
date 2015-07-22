@@ -12,12 +12,22 @@ body
 }
 
 p
-{ padding: 0 0 10px 0;
+{ padding: 0 0px 10px 0; /*padding: top right bottom left*/
   line-height: 1.7em;
   font-size: 100% }
 
+/*defining a boarder style for a paragraph with inset*/  
+p.one
+{ border: 2px inset #C56B85;
+  text-align: left;} 
+p.two
+{ border: 2px ridge #C56B85;
+  text-align: left;}   
+
 img
-{ border: 0;}
+{ padding:1px;
+   border:1px solid #021a40;
+   background-color:#C56B85;}
 
 h1, h2, h3, h4, h5, h6 
 { font: normal 175% Arial, Helvetica, sans-serif;
@@ -45,7 +55,7 @@ h5, h6
   padding-bottom: 15px;}
 
 a
-{ color: #FFF;
+{ color: #000;
   font-weight: bold;
   background: transparent;
   outline: none;
@@ -171,14 +181,14 @@ ul#menu li.active a, ul#menu li:hover a
   float: left;}
 
 .content_item
-{ width: 680px;
+{ width: 320px;
   margin-bottom: 20px;}
   
 .content_container
 { width: 320px;
   padding: 5px;
   margin-right: 10px;
-  float: left;}
+  float: top;}
   
 #content_blue
  { width: 920px;
