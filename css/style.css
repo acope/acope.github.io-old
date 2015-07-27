@@ -7,8 +7,14 @@ html
 
 body
 { font: normal 85% Arial, Helvetica, sans-serif;
-  background: #1d1d1d url(../images/background/background_marblewhiteandblack.jpg) repeat;
+  background: #1d1d1d url(../images/background/background_marblewhiteandblack.jpg) repeat fixed center;
   color: #000;
+}
+
+body.construction-page
+{
+   background: url(../images/background/underconstruction.jpg) no-repeat;
+   background-size: 2000px 1000px;
 }
 
 p
@@ -129,7 +135,7 @@ ul#menu li a
   height: 24px;
   text-shadow: 1px 1px 5px #000;
   padding: 16px 15px 10px 15px;
-  background: transparent; } 
+} 
 
 /*Menu Bar Highlighting*/  
 ul#menu li.active a, ul#menu li:hover a
@@ -236,18 +242,25 @@ ul#menu li.active a, ul#menu li:hover a
   height: 20px;
   padding-top: 25px;
   text-align: center; 
-  background: transparent;
-  color: #FFF;
-  text-shadow: 0px 1px 5px #000;}
+  background: #621B45;
+  background: -webkit-linear-gradient(#C56B85, #381029);
+  color: #EACFCF;
+  text-shadow: 0px 1px 5px #000;
+  border-style: inset;
+  border-width: 3px;
+  border-color: #C56B85; 
+  border-radius: 0px 15px 0px 15px}
 
-#footer a, #footer a:hover
+#footer a
 { color: #FFF;
   text-shadow: 0px 1px 1px #000;
-  text-decoration: underline;
+  text-decoration: none;
   padding-bottom: 20px;}
 
 #footer a:hover
-{ text-decoration: underline;}
+{ text-decoration: underline;
+  color: #C56B85;
+ }
   
  .readmore
 { font: bold 110% Arial, Helvetica, sans-serif;
