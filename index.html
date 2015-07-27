@@ -1,137 +1,170 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Austin Copeman</title>
-  <meta name="description" content="personal website" />
-  <meta name="keywords" content="Austin Copeman" />
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-  <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
-  <script type="text/javascript" src="js/jquery.imgresize.js"></script><!--resize an image-->
-  <script type="text/javascript">
-    $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
-  </script> 
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Austin Copeman</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-  <div id="main">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-	<div id="menubar">
-	  <div id="welcome">
-	    <h1><a href="#">Austin Copeman</a></h1>
-	  </div><!--close welcome-->
-      <div id="menu_items">
-	    <ul id="menu">
-          <li class="current"><a href="index.html">Home</a></li>
-          <li><a href="under_construction.html">About Me</a></li>
-          <li><a href="under_construction.html">Resume</a></li>
-          <li><a href="under_construction.html">Projects</a></li>
-          <li><a href="under_construction.html">Other</a></li>
-        </ul>
-      </div><!--close menu-->
-    </div><!--close menubar-->	
-    
-	<div id="site_content">		
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Austin Copeman
+                </a>
+            </div>
 
-	  <div id="banner_image">
-	    <div id="slider-wrapper">        
-          <div id="slider" class="nivoSlider">
-            <img src="images/header/Header_BMET_AustinCopeman.jpg" alt="Bmet Header" />
-			<img src="images/header/Header_RuckMarch.jpg" alt="Water Header" />
-			<img src="images/header/Header_AquarelPuertoRico.jpg" alt="Water Header" />
-			<img src="images/header/Header_PictureRocks.jpg" alt="Water Header" />
-			<img src="images/header/Header_SandyBeach.jpg" alt="Water Header" />
-			<img src="images/header/Header_Water_AustinCopeman.jpg" alt="Water Header" />
-		  </div><!--close slider-->
-		</div><!--close slider_wrapper-->
-	  </div><!--close banner_image-->	
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#resume">Resume</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-	  <div class="sidebar_container">       
-		
-		<div class="sidebar">
-          <div class="sidebar_item">
-            <h2>Under Construction</h2>
-            <p>This website is still under construction. Please excuse the mess</p>
-          </div><!--close sidebar_item--> 
-        </div><!--close sidebar-->     		
-		
-		<div class="sidebar">
-          <div class="sidebar_item">
-            <h2>What's New?</h2>
-            <h3>LinkedIn Profile</h3>
-				<p>Visit my linked in profile to keep up to date information on my latest job info and projects!
-				</p><!--End Paragraph-->   
-				<a href="https://www.linkedin.com/pub/austin-copeman/79/a6b/296" target="_blank">
-					<img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0" style="position:relative; left:20px; top:0px;" alt="View Austin Copeman's profile on LinkedIn">
-				   </a><!--End LinkedInProfile Image-->      
-		  </div><!--close sidebar_item--> 
-        </div><!--close sidebar-->		
-      
-	  </div><!--close sidebar_container-->		  
-	 
-	  <div id="content">
-		
-		<img src="images/Austin_RuckMarch.jpg" alt="Austin Ruck March" style="width:320px;height:420px;float:right;">
-        <div class="content_item"> 
-		  <h1>Welcome To My Website</h1>			  
-			<p class="one" >This website contains all of my work which includes school projects, work projects and my resume. I will try and keep this website up to date as much as possible.
-			</p>	  
-		  	 
-		  <div class="content_container">
-		    <p>Please check out my projects! I will keep it updated with all of my home, school and work projects that are in progress or completed. 
-			   Stay tuned for more! All code will be posted on my GitHub page.
-			</p><!--end paragraph-->
-		  	<div class="button_small">
-		      <a href="https://github.com/acope" target="_blank">Read more</a>
-		    </div><!--close button_small-->
-		  </div><!--close content_container-->
-         
-		 <div class="content_container">
-		    <p>Want to know more about me? Check out my about me page! It has a brief history of my life and accomplishments as well as my future plans and ambitions are.
-			</p>          
-		  	<div class="button_small">
-		      <a href="aboutme.html">Read more</a>
-		    </div><!--close button_small-->		  
-		  </div><!--close content_container-->			  
-		</div><!--close content_item-->
-      </div><!--close content-->   
-	
-	  <div id="content_blue">
-	    <div class="content_blue_container_box">
-		  <h4>Latest Blog Post</h4>
-	      <p> Phasellus laoreet feugiat risus. Ut tincidunt, ante vel fermentum iaculis.</p>
-		  <div class="readmore">
-		    <a href="#">Read more</a>
-		  </div><!--close readmore-->
-	    </div><!--close content_blue_container_box-->
-        <div class="content_blue_container_box">
-         <h4>Latest News</h4>
-	      <p> Phasellus laoreet feugiat risus. Ut tincidunt, ante vel fermentum iaculis.</p>
-	      <div class="readmore">
-		    <a href="#">Read more</a>
-		  </div><!--close readmore-->
-	    </div><!--close content_blue_container_box-->
-        <div class="content_blue_container_boxl">
-		  <h4>Latest Projects</h4>
-	      <p> Phasellus laoreet feugiat risus. Ut tincidunt, ante vel fermentum iaculis.</p>
-	      <div class="readmore">
-		    <a href="#">Read more</a>
-		  </div><!--close readmore-->	  
-	    </div><!--close content_blue_container_box1-->      
-	    <br style="clear:both"/>
-      </div><!--close content_blue--> 	
-	</div><!--close site_content--> 
-  
-  </div><!--close main-->
-  
-  <div id="footer">
-	Please feel free to visit my <a href="https://github.com/acope" target="_blank">GitHub</a> page and <a href="https://www.linkedin.com/in/austincopeman" target="_blank">LinkedIn</a> profile
-  </div><!--close footer-->  
-  
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Austin Copeman</h1>
+                        <p class="intro-text">Welcome to my personalized website!<br>Feel free to browse my resume and projects.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Me</h2>
+                <p>A goal driven, military trained personnel always looking for the next opportunity to increase my knowledge in what I am doing. Currently a student at Oakland University obtaining my bachelor’s degree in Computer Engineering with an expected graduation date of fall of 2016. Along with my bachelor’s degree, I have already obtained an associate’s degree in general studies in the winter of 2013 from Oakland Community College. After I am done with schooling I am hoping to start work as a computer engineer working in the medical field. Along with that I am also going to look at getting another bachelor of science in Applied Science and Technology (BSAST) or Biomedical Electronics.</p>
+
+                <p>Sworn in on March 27, 2012, I am serving in the United States Army Reserve’s as a 68A (Biomedical Equipment Technician). The definition of a Biomedical Equipment Technician (BMET) according to the Army is</p>
+                    <blockquote class="blockquote-reverse"> 
+                        <p><i>“Performs maintenance series and repairs of all medical equipment. This equipment employs mechanical, hydraulic, pneumatic, compressed gas and steam, electrical/electronic, solid state, digital, microprocessor, optical, and radiological principles.“</i></p>
+                    </blockquote> 
+                <p>In short, we perform maintenance and repair on any medical equipment. The 68A course is one of the longest and toughest AIT courses in the 68 series, with the course being 42 weeks long and having a high drop out rate. The course consisted of 12 courses each course dealing with a variety of different equipment. The course is designed to teach you troubleshooting skills on many different equipment down to the board level. </p>
+
+                <p>After graduation from AIT, I went back to school to finish my degree in Computer Engineering along with taking a job working as a dental service technician for a dental supply company called Midway Dental located in Farmington Hills, MI. The role of my position in the company was to supply service/training for offices whose equipment is improperly functioning. This could require on site repair, bench repair or sending the equipment back to the manufacture for repair. During my time at Midway Dental, I created a stronger foundation in troubleshooting and diagnosing problems that was taught to me in 68A School. My specialty became diagnosing and repairing of table-top autoclaves. I also became very knowledge in how to communicate clearly and how to understand the need of an office and how to fix their problems. This mainly included fixing and teaching the assistants on how to properly maintain their equipment. During my time working with Midway Dental, I also help the installation of many new offices and installation of used equipment that we repaired and refurbished at our sister company, Refurb Dental. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="content-section text-center">
+        <div class="projects-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>My Projects</h2>
+                    <p>You can find all of my project source code on my GitHub page.</p>
+                    <a href="https://github.com/acope" class="btn btn-default btn-lg">Visit GitHub Page</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="container resume-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>My Resume</h2>
+                <p>Still under construction!</p>
+                <p>If you still want to get a copy of my resume, please feel free to email me at the email address located below. I am always looking for new job opportunities.</p>
+                <p><a href="mailto:copeman.austin@gmail.com">copeman.austin@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://www.linkedin.com/in/austincopeman" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/acope" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+AustinCopeman" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+   <!-- <div id="map"></div> -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p> This website was built using <a href="http://getbootstrap.com/"> Bootstrap</a></p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
 </body>
+
 </html>
