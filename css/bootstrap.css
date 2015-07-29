@@ -6145,6 +6145,10 @@ button.close {
 .carousel-inner > .active.right {
   left: 100%;
 }
+.carousel-content { 
+    display: flex;
+    align-items: center; 
+}
 .carousel-control {
   position: absolute;
   top: 0;
