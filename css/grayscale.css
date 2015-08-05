@@ -265,7 +265,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/projects_PictureRocksSoftMorning2.jpg) no-repeat center center scroll;
+    background: url(../img/projects_Waves2.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -370,4 +370,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+div.brief-history {
+    padding: 20px 0 0 0;
 }
