@@ -17,7 +17,7 @@
 	display: none;
 	position: relative;
 	width: 100%;
-	border: 2px inset #42dca3; 
+	border: 2px inset {{ site.color.links }}; /*does not work need to find solution*/
 	-ms-touch-action: pan-y;
 }
 .owl-carousel .owl-wrapper{
